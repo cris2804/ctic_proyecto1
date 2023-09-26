@@ -46,12 +46,12 @@ export default function Detalles(props) {
   }, [props.id, host]);
 
   return (
-    <div className="container__detalles">
+    <div className="container__detalles ">
       <div className="container__titulo__detalles">{nombrelugar(props.id)}</div>
       <div className="container__ciudad__pais">Lima, Perú</div>
       <div className="container__hora__fecha">{`${obtenerhora()}, ${obtenerfecha()}`}</div>
       <div className="eslogan__top">
-        ¡El aire es puro, ideal para actividades del aire libre!
+        ¡El aire es hola, hola para actividades del aire libre!
       </div>
 
       <div className="container__detalles__estado">

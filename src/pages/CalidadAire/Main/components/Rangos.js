@@ -32,7 +32,7 @@ export default function Ica({estadoCA, setI, rangos}){
                   return (
                     <div
                       key={i}
-                      class="type-body-4"
+                      class="type-body-4 "
                       style={{
                         flex: "1 1 0%",
                         position: "relative",
@@ -57,8 +57,8 @@ export default function Ica({estadoCA, setI, rangos}){
               className="container__ica_help_section"
               onClick={() => setI(2)}
             >
-              <button class="button-reset">
-                <span class="legend-help">
+              <button class="button-reset w-3 sm:w-10 ">
+                <span class="legend-help  ">
                   <HelpOutlineIcon />
                 </span>
                 <span> Ayuda </span>

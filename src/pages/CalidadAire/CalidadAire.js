@@ -14,7 +14,7 @@ function CalidadAire() {
   const [submenuOpen, setSubmenuOpen] = useState(0);
 
   return (
-    <div className={`flex duration-300 ${open ? "pl-72" : "pl-20"}`}>
+    <div className={`flex duration-300 ${open ? "pl-72 " : "pl-0 sm:pl-20"}`}>
 
       <Sidebar open={open} setOpen={setOpen} submenuOpen={submenuOpen} setSubmenuOpen={setSubmenuOpen} />
         

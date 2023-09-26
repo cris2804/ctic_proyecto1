@@ -92,13 +92,18 @@ function Main() {
         <Opciones estadoCA={estadoCA} estadoCV={estadoCV} handleCambiarCA={handleCambiarCA} handleCambiarCV={handleCambiarCV} />
 
         <Rangos estadoCA={estadoCA} setI={setI} rangos={rangos} />
-
-        <div className={ bol || i === 2 ? "container__datos__ca__cv" : "container__datos__ca__cv2" }>
-          <div className="container__logo__close">
-            <RiCloseCircleFill className="img" onClick={handleCerrar} />
-          </div>
-          {changeOption(i, id, estadoCA)}
-        </div>
+         
+           <div className={ bol || i === 2 ?  "container__datos__ca__cv  w-3 sm:w-5" : "container__datos__ca__cv2" } >
+           
+            <div className="container__logo__close">
+              <RiCloseCircleFill className="img" onClick={handleCerrar} />
+            </div>
+            {changeOption(i, id, estadoCA)}
+  
+           
+            </div>
+          
+        
       </div>
     </div>
   );
